@@ -569,4 +569,18 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve resource locati
   [INFO] [2016-12-01 09:46:07][test.TestMyBatis]值：这是测试名字
   [INFO] [2016-12-01 09:46:07][test.TestMyBatis]{"age":24,"id":1,"password":"sfasgfaf","userName":"这是测试名字"}
   [INFO] [2016-12-01 09:46:07][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@2bb843a4: startup date [Thu Dec 01 09:46:07 CST 2016]; root of context hierarchy
+  [INFO] [2016-12-05 09:47:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+  [INFO] [2016-12-05 09:47:41][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@38a30a0b: startup date [Mon Dec 05 09:47:41 CST 2016]; root of context hierarchy
+  [INFO] [2016-12-05 09:47:41][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+  [INFO] [2016-12-05 09:47:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2016-12-05 09:47:42][test.TestMyBatis]值：这是测试名字
+  [INFO] [2016-12-05 09:47:43][test.TestMyBatis]{"age":24,"id":1,"password":"sfasgfaf","userName":"这是测试名字"}
+  [INFO] [2016-12-05 09:47:43][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@38a30a0b: startup date [Mon Dec 05 09:47:41 CST 2016]; root of context hierarchy
+  [INFO] [2016-12-05 09:49:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+  [INFO] [2016-12-05 09:49:02][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@38a30a0b: startup date [Mon Dec 05 09:49:02 CST 2016]; root of context hierarchy
+  [INFO] [2016-12-05 09:49:02][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+  [INFO] [2016-12-05 09:49:02][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2016-12-05 09:49:03][test.TestMyBatis]值：这是测试名字
+  [INFO] [2016-12-05 09:49:03][test.TestMyBatis]{"age":24,"id":1,"password":"sfasgfaf","userName":"这是测试名字"}
+  [INFO] [2016-12-05 09:49:03][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@38a30a0b: startup date [Mon Dec 05 09:49:02 CST 2016]; root of context hierarchy
   
